@@ -23,6 +23,8 @@ public class TodoItem : BaseAuditableEntity
                 AddDomainEvent(new TodoItemCompletedEvent(this));
             }
 
+
+
             _done = value;
         }
     }
